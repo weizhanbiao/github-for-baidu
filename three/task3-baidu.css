@@ -1,0 +1,28 @@
+
+h1,h2,p,ul{
+    text-align: center;
+
+}
+#aa{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px green;
+
+}
+strong{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+li{
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-style: italic;
+    font-weight: bold;
+    line-height: 20px;
+}
+#people{
+    text-decoration:line-through;
+}
+.zhihu{
+    text-indent:2cm;
+}
