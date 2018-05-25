@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>布局练习</title>
+    <style type="text/css">
+    #header{
+        width: 100%;
+        background-color: black;
+        height: 100px;
+    }
+    .logo{
+        color: white;
+        margin-left:20% ;
+        line-height: 100px;
+        font-size: 20px;
+    }
+    .link{
+        display: flex;
+        float: right;
+        margin-top: 0px;
+        margin-right:25%;
+    }
+        ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+
+        .slider{
+            width: 100%;
+            height: 280px;
+            background:greenyellow ;
+        }
+        .sliders{
+            position: absolute;
+            right: 20%;
+            top: 370px;
+        }
+        .sliders a{
+            border: 1px solid black;
+            text-decoration: none;
+            display:inline-block;
+            width: 20px;
+            text-align: center;
+        }
+        .nav{
+
+            width: 100%;
+            background: transparent;
+        }
+        .nav-main{
+            margin-top: 500px;
+            margin: 0 auto;
+            width: 940px;
+        }
+        div span{
+            display: inline-block;
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            font-size: 10px;
+            width: 50px;
+            height: 25px;
+            line-height: 30px;
+            background-color: #eee;
+        }
+        #navi-main-current{
+            background-color: white;
+            background-color: white;
+        }
+        .main{
+            width: 100%;
+        }
+
+    .main {
+        margin: 0 auto;
+        width: 940px;
+
+    }
+    .row-1,
+    .row-2,
+    .row-3 {
+        display: flex;
+    }
+
+    .item {
+        padding: 80px;
+        border: 1px solid #333;
+        flex: 1;
+    }
+        .foot{
+            width: 100%;
+            height: 150px;
+            margin-top: 20px;
+            padding-top: 10px;
+            background-color: #333333;
+        }
+    .foot p {
+        color: white;
+        font-size: 12px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+
+
+<!--头部开始-->
+<div id="header">
+    <ul class="link">
+        <li><a href="#">Github &nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#">Github &nbsp;&nbsp;&nbsp;</a></li>
+        <li><a href="#">Github</a></li>
+    </ul>
+    <p  class="logo" >Logo</p>
+</div>
+<!--头部结束-->
+
+
+
+<!--滑块开始-->
+<div class="slider">
+    <div class="sliders">
+         <a href="#">1</a>
+         <a href="#">2</a>
+         <a href="#">3</a>
+         <a href="#">1</a>
+    </div>
+</div>
+<!--滑块结束-->
+
+<!--导航开始-->
+<div class="nav">
+    <div class="nav-main">
+        <span id="navi-main-current">HOME</span><span>PROFILE</span><span>ABOUT</span>
+    </div>
+</div>
+<!--导航结束-->
+<!--主题开始-->
+<div class="main">
+    <div class="row-1">
+       <div class="item" id="item1">This is Content 1</div>
+        <div class="item" id="item2">This is Content 2</div>
+        <div class="item" id="item3">This is Content 3</div>
+    </div>
+    <div class="row-2">
+        <div class="item" id="item4">This is Content 4</div>
+        <div class="item" id="item5">This is Content 5</div>
+        <div class="item" id="item6">This is Content 6</div>
+        <div class="item" id="item7">This is Content 7</div>
+    </div>
+    <div class="row-3">
+        <div class="item" id="item8">This is Content 7</div>
+        <div class="item" id="item9">This is Content 8</div>
+        <div class="item" id="item10">This is Content 9</div>
+    </div>
+</div>
+<!--主题结束-->
+
+<!--尾部开始-->
+<div class="foot">
+    <p>@ 2018 ife.baidu.com</p>
+</div>
+<!--尾部结束-->
+</body>
+</html>
