@@ -1,0 +1,183 @@
+html,body{height:100%; margin:0;
+    padding: 0px;}
+#main{
+    display: flex;
+    height: 100%;
+    font-family: 微软雅黑;
+}
+#left-1{
+    height: 100%;
+    width: 80px;
+    background-color: rgba(16,49,80,0.91);
+}
+.left-1-top{
+    text-align: center;
+    margin-top: 10px;
+}
+.left-1-top-images{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.left-1-button-images{
+    display: flex;
+    position:absolute;
+    bottom:0px;
+    margin-left: 1%;
+ }
+
+.bottom{
+    flex: 1;
+}
+.bottom-1{
+    flex: 1;
+}
+#left-2{
+    height: 100%;
+    width: 200px;
+    background-color: rgba(21,12,64,0.82);
+}
+.left-2-1{
+    display: flex;
+}
+.left-all{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.min-left-2-1{
+    font-size: 0.7em;
+    color: grey;
+    flex: 2;
+}
+.min-left-2-2{
+    flex: 1;
+    margin-top: 5%;
+}
+.left-2-2 p{
+    font-size: 0.7em;
+    color: white;
+}
+.p{
+    display: flex;
+}
+
+
+.left-2-3{
+    display: flex;
+}
+.left-2-3-img{
+    flex: 1;
+    margin-top: 5%;
+}
+.left-2-3-p{
+    flex: 4;
+    font-size: 0.7em;
+}
+.left-2-bottom{
+    position:absolute;
+    bottom:0px;
+
+}
+
+#top{
+    width: 100%;
+}
+.top-top{
+    height: 10%;
+    display: flex;
+    width: 100%;
+}
+.top-left{
+    flex: 2;
+}
+.right-left{
+    flex: 8;
+}
+.top-right{
+    flex: 2;
+    display: flex;
+}
+
+
+
+#right-1 {
+    width: 450px;
+    border-right: 1px solid black;
+}
+#last-2{
+    width: 450px;
+}
+.right-1-main{
+    margin-left: 0px;
+}
+.right-2-bottom{
+
+}
+.sousuo{
+    background: url("images/搜索.png") center right no-repeat;
+    background-size: 25px 25px;
+}
+li{
+    color: deepskyblue;
+    margin-left: 20px
+}
+
+
+.right-bottom-1{
+    display: flex;
+}
+.photos-1{
+    flex: 1;
+}
+.bessie{
+    margin-top: 0px;
+    flex: 4;
+    line-height: 5px;
+}
+.bessie p{
+    color:grey;
+    margin-left: 20px
+}
+.three-m{
+    flex: 1;
+  }
+.three-m p{
+    margin-top: 8px;
+    color: grey;
+}
+.wen-zi{
+    display:flex;
+}
+.i-play{
+    flex:5;
+    margin-left: 20px
+}
+.four{
+    flex: 1;
+}
+.right-1{
+    display: flex;
+    float: right;
+}
+#last{
+    display: flex;
+}
+#last-1{
+    width: 100%;
+    margin-top: -20px;
+}
+div span{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+    background-color: #eee;
+    margin-top: 6px
+}
+#navi-main-current{
+    background-color: white;
+    background-color: white;
+}
+
